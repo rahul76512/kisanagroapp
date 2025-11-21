@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          dark: "hsl(var(--primary-dark))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -46,6 +47,21 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        success: "hsl(var(--success))",
+        warning: "hsl(var(--warning))",
+        info: "hsl(var(--info))",
+        weather: {
+          bg: "hsl(var(--weather-bg))",
+          temp: "hsl(var(--weather-temp))",
+        },
+        tag: {
+          subsidy: "hsl(var(--tag-subsidy))",
+          subsidyText: "hsl(var(--tag-subsidy-text))",
+          loan: "hsl(var(--tag-loan))",
+          loanText: "hsl(var(--tag-loan-text))",
+          insurance: "hsl(var(--tag-insurance))",
+          insuranceText: "hsl(var(--tag-insurance-text))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
