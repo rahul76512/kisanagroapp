@@ -141,11 +141,15 @@ const Login = () => {
           </Tabs>
         </Card>
 
-        <p className="text-center text-sm text-muted-foreground mt-6">
-          {language === "en"
-            ? "For admin access, contact your administrator"
-            : "एडमिन एक्सेस के लिए अपने प्रशासक से संपर्क करें"}
-        </p>
+        <div className="text-center mt-6">
+          <Button
+            variant="outline"
+            onClick={() => navigate("/admin")}
+            className="rounded-2xl"
+          >
+            {language === "en" ? "🔐 Admin Panel Access" : "🔐 एडमिन पैनल एक्सेस"}
+          </Button>
+        </div>
       </div>
     </div>
   );
